@@ -31,10 +31,9 @@ PlasmoidItem {
             anchors.leftMargin: 3
             anchors.rightMargin: 3
             radius: 2
-            color: mouse.containsMouse ? root.mauve : "transparent"
-            opacity: mouse.containsMouse ? 0.9 : 0.5
-            border.width: 1
-            border.color: root.mauve
+            color: root.mauve
+            opacity: mouse.containsMouse ? 0.9 : 0.15
+            border.width: 0
 
             Behavior on color { ColorAnimation { duration: 150 } }
             Behavior on opacity { NumberAnimation { duration: 150 } }
