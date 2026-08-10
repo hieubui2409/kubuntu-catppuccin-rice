@@ -15,7 +15,7 @@ A complete **Catppuccin Mocha (Mauve accent)** desktop for **Kubuntu 26.04 / KDE
 | GTK 3/4 | catppuccin-mocha-mauve-standard | [catppuccin/gtk] |
 | Window deco | Breeze (follows color scheme) + rounded corners everywhere | [KDE-Rounded-Corners] |
 | KWin effects | blur 12, wobbly windows, magic lamp, scale, sheet, cube, dim screen | built-in |
-| Panels | Floating auto-hide top bars (both screens) + Win11-style floating taskbar with [Panel Colorizer] (custom *Bliss Mocha* preset) | `plasma/panels-v5.js` |
+| Panels | Floating auto-hide top bars (both screens, compact ☰ global menu, media controls) + Win11-style floating taskbar; peek-at-desktop via bottom-right hot corner | `plasma/panels-v5.js` |
 | Monitors | Synced pie charts CPU / RAM / GPU + compact ↓↑ network numbers | built-in system monitor |
 | SDDM | [SilentSDDM] `catppuccin-mocha` preset — custom background, mauve accent, real avatar, small password dots | `sddm/` |
 | Lock screen | Custom look-and-feel `org.kde.catppuccin.lock` — smaller password dots, blurred wallpaper matching SDDM | `plasma/look-and-feel/` |
@@ -38,7 +38,6 @@ kvantum/    Kvantum theme (translucent_windows=true, reduce_window_opacity=15)
 kde/        kdeglobals, kwinrc, kscreenlockerrc, katerc (reference copies)
 plasma/     panels-v5.js (rebuilds both bars via plasma scripting API),
             appletsrc + plasmashellrc reference, custom lockscreen LnF,
-            Panel Colorizer "Bliss Mocha" preset JSON
 sddm/       SilentSDDM config (mocha + mauve + custom bg) + sddm settings
 terminal/   Konsole scheme & profile, fastfetch config, p10k color overrides
 gtk/        GTK3 settings reference
@@ -58,7 +57,7 @@ screenshots/
    plasma-apply-cursortheme catppuccin-mocha-mauve-cursors
    /usr/lib/x86_64-linux-gnu/libexec/plasma-changeicons Tela-circle-purple-dark
    ```
-2. **Panels** — install [Panel Colorizer], then run `plasma/panels-v5.js`:
+2. **Panels** — run `plasma/panels-v5.js`:
    ```bash
    qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "$(cat plasma/panels-v5.js)"
    ```
@@ -82,7 +81,6 @@ Catppuccin **Mocha**, accent **Mauve** `#cba6f7` — base `#1e1e2e`, surface `#3
 - [Catppuccin](https://github.com/catppuccin) — the soothing pastel theme (kvantum, kde, gtk, cursors, grub, plymouth, konsole, browsers)
 - [uiriansan/SilentSDDM](https://github.com/uiriansan/SilentSDDM) — the gorgeous Qt6 SDDM theme
 - [matinlotfali/KDE-Rounded-Corners](https://github.com/matinlotfali/KDE-Rounded-Corners) — rounded corners KWin effect
-- [luisbocanegra/plasma-panel-colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) — panel styling engine
 - [vinceliuice/Tela-circle-icon-theme](https://github.com/vinceliuice/Tela-circle-icon-theme) — icon theme
 - [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) — wallpapers (`galaxy-waves`, `purple-horizon`, `purpled-night`) — grab them from that repo
 
@@ -98,5 +96,4 @@ My own scripts and configs: MIT. Third-party themes keep their upstream licenses
 [catppuccin/plymouth]: https://github.com/catppuccin/plymouth
 [vinceliuice/Tela-circle-icon-theme]: https://github.com/vinceliuice/Tela-circle-icon-theme
 [KDE-Rounded-Corners]: https://github.com/matinlotfali/KDE-Rounded-Corners
-[Panel Colorizer]: https://github.com/luisbocanegra/plasma-panel-colorizer
 [SilentSDDM]: https://github.com/uiriansan/SilentSDDM
