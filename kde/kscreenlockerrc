@@ -1,0 +1,11 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Greeter]
+Theme=org.kde.catppuccin.lock
+
+[Greeter][Wallpaper][org.kde.image][General]
+FillMode=2
+Image=/home/hieubt/Documents/images/catppuccin/purpled-night-blur.jpg
+PreviewImage=/home/hieubt/Documents/images/IMG_20251001_154421.png
+SlidePaths=/home/hieubt/.local/share/wallpapers,/usr/share/plasma/wallpapers,/usr/share/wallpapers

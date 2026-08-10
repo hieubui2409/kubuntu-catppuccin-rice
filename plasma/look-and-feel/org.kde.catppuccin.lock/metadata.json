@@ -1,0 +1,17 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "hieubt"
+            }
+        ],
+        "Category": "",
+        "Description": "Breeze lockscreen với chấm mật khẩu nhỏ hơn, đồng bộ SilentSDDM",
+        "Id": "org.kde.catppuccin.lock",
+        "License": "LGPL-2.0-or-later",
+        "Name": "Catppuccin Lock",
+        "Version": "1.0",
+        "Website": "https://kde.org"
+    },
+    "X-Plasma-APIVersion": "2"
+}
