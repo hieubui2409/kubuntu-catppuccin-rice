@@ -1,0 +1,11 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "hieubt" }],
+        "Description": "Catppuccin Mocha splash — purpled night + mauve progress",
+        "Id": "org.kde.catppuccin.splash",
+        "License": "MIT",
+        "Name": "Catppuccin Splash",
+        "Version": "1.0"
+    },
+    "X-Plasma-APIVersion": "2"
+}

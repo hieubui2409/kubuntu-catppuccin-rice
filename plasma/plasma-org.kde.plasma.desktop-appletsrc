@@ -27,8 +27,8 @@ FillMode=2
 Image=file:///home/hieubt/Documents/images/catppuccin/galaxy-waves.jpg
 
 [Containments][2]
-ItemGeometries-1969x1108=
-ItemGeometriesHorizontal=
+ItemGeometries-1969x1108=Applet-748:1180,60,384,384,0;Applet-749:1180,470,384,304,0;
+ItemGeometriesHorizontal=Applet-748:1180,60,384,384,0;Applet-749:1180,470,384,304,0;
 activityId=56bf9d9e-2b69-4322-8794-9b8bab6799d6
 formfactor=0
 immutability=1
@@ -36,6 +36,27 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][2][Applets][748]
+immutability=1
+plugin=org.kde.plasma.analogclock
+
+[Containments][2][Applets][748][Configuration]
+popupHeight=375
+popupWidth=525
+
+[Containments][2][Applets][748][Configuration][General]
+showSecondHand=true
+
+[Containments][2][Applets][749]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][2][Applets][749][Configuration][Units]
+temperatureUnit=6002
+
+[Containments][2][Applets][749][Configuration][WeatherStation]
+source=bbcukmet|weather|Hanoi, Vietnam|1581130
 
 [Containments][2][Wallpaper][org.kde.image][General]
 FillMode=2
@@ -192,8 +213,12 @@ fontWeight=400
 showDate=true
 showSeconds=2
 
+[Containments][3][Applets][745]
+immutability=1
+plugin=com.hieubt.peek
+
 [Containments][3][General]
-AppletOrder=539;540;541;542;543;558
+AppletOrder=539;540;541;542;543;558;745
 
 [Containments][427]
 activityId=
@@ -302,31 +327,6 @@ gpu/gpu2/usage=203,166,247
 [Containments][427][Applets][685][Configuration][Sensors]
 highPrioritySensorIds=["gpu/gpu2/usage"]
 totalSensors=["gpu/gpu2/usage"]
-
-[Containments][427][Applets][686]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.net
-
-[Containments][427][Applets][686][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-popupHeight=45
-popupWidth=152
-
-[Containments][427][Applets][686][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-showTitle=false
-title=Network Speed
-
-[Containments][427][Applets][686][Configuration][SensorColors]
-network/all/download=250,179,135
-network/all/upload=148,226,213
-
-[Containments][427][Applets][686][Configuration][SensorLabels]
-network/all/download=↓
-network/all/upload=↑
-
-[Containments][427][Applets][686][Configuration][Sensors]
-highPrioritySensorIds=["network/all/download","network/all/upload"]
 
 [Containments][427][Applets][687]
 immutability=1
@@ -438,8 +438,12 @@ plugin=org.kde.plasma.networkmanagement
 popupHeight=375
 popupWidth=525
 
+[Containments][427][Applets][746]
+immutability=1
+plugin=com.hieubt.netspeed
+
 [Containments][427][General]
-AppletOrder=679;680;681;682;683;684;685;686;687;688;703;704
+AppletOrder=679;680;681;682;683;684;685;687;688;703;704;746
 
 [Containments][633]
 activityId=
@@ -548,31 +552,6 @@ gpu/gpu2/usage=203,166,247
 [Containments][633][Applets][712][Configuration][Sensors]
 highPrioritySensorIds=["gpu/gpu2/usage"]
 totalSensors=["gpu/gpu2/usage"]
-
-[Containments][633][Applets][713]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.net
-
-[Containments][633][Applets][713][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-popupHeight=45
-popupWidth=152
-
-[Containments][633][Applets][713][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-showTitle=false
-title=Network Speed
-
-[Containments][633][Applets][713][Configuration][SensorColors]
-network/all/download=250,179,135
-network/all/upload=148,226,213
-
-[Containments][633][Applets][713][Configuration][SensorLabels]
-network/all/download=↓
-network/all/upload=↑
-
-[Containments][633][Applets][713][Configuration][Sensors]
-highPrioritySensorIds=["network/all/download","network/all/upload"]
 
 [Containments][633][Applets][714]
 immutability=1
@@ -684,8 +663,12 @@ plugin=org.kde.plasma.networkmanagement
 popupHeight=375
 popupWidth=525
 
+[Containments][633][Applets][747]
+immutability=1
+plugin=com.hieubt.netspeed
+
 [Containments][633][General]
-AppletOrder=706;707;708;709;710;711;712;713;714;715;730;731
+AppletOrder=706;707;708;709;710;711;712;714;715;730;731;747
 
 [ScreenMapping]
 itemsOnDisabledScreens=

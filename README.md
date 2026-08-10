@@ -16,7 +16,13 @@ A complete **Catppuccin Mocha (Mauve accent)** desktop for **Kubuntu 26.04 / KDE
 | Window deco | Breeze (follows color scheme) + rounded corners everywhere | [KDE-Rounded-Corners] |
 | KWin effects | blur 12, wobbly windows, magic lamp, scale, sheet, cube, dim screen | built-in |
 | Panels | Floating auto-hide top bars (both screens, compact ☰ global menu, media controls) + Win11-style floating taskbar; peek-at-desktop via bottom-right hot corner | `plasma/panels-v5.js` |
-| Monitors | Synced pie charts CPU / RAM / GPU + compact ↓↑ network numbers | built-in system monitor |
+| Monitors | Synced pie charts CPU / RAM / GPU + custom fixed-width net-speed plasmoid | `plasma/plasmoids/com.hieubt.netspeed` |
+| Peek chip | Win11-style slim peek-at-desktop chip (mauve, hover glow) + hot corner | `plasma/plasmoids/com.hieubt.peek` |
+| Window deco 2 | **Klassy** decoration (built from source) with pin/keep-above buttons, mauve active outline glow | [paulmcauley/klassy] |
+| Close FX | **Burn-My-Windows** fire effect on window close (energize-a, tv-glitch, portal also installed) | [Schneegans/Burn-My-Windows] |
+| KSplash | Custom `org.kde.catppuccin.splash` — blurred purpled-night + mauve progress bar | `plasma/look-and-feel/` |
+| Yakuake | Catppuccin mocha skin + same Konsole profile | [catppuccin/yakuake] |
+| Desktop | Analog clock + weather widgets on secondary screen, 4 virtual desktops + Cube | scripted |
 | SDDM | [SilentSDDM] `catppuccin-mocha` preset — custom background, mauve accent, real avatar, small password dots | `sddm/` |
 | Lock screen | Custom look-and-feel `org.kde.catppuccin.lock` — smaller password dots, blurred wallpaper matching SDDM | `plasma/look-and-feel/` |
 | Terminal | Konsole/Yakuake mocha scheme (88% opacity + blur), fastfetch, powerlevel10k mocha palette | `terminal/` |
@@ -82,6 +88,8 @@ Catppuccin **Mocha**, accent **Mauve** `#cba6f7` — base `#1e1e2e`, surface `#3
 - [uiriansan/SilentSDDM](https://github.com/uiriansan/SilentSDDM) — the gorgeous Qt6 SDDM theme
 - [matinlotfali/KDE-Rounded-Corners](https://github.com/matinlotfali/KDE-Rounded-Corners) — rounded corners KWin effect
 - [vinceliuice/Tela-circle-icon-theme](https://github.com/vinceliuice/Tela-circle-icon-theme) — icon theme
+- [paulmcauley/klassy](https://github.com/paulmcauley/klassy) — window decoration
+- [Schneegans/Burn-My-Windows](https://github.com/Schneegans/Burn-My-Windows) — window open/close effects
 - [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) — wallpapers (`galaxy-waves`, `purple-horizon`, `purpled-night`) — grab them from that repo
 
 ## 📄 License
@@ -97,3 +105,6 @@ My own scripts and configs: MIT. Third-party themes keep their upstream licenses
 [vinceliuice/Tela-circle-icon-theme]: https://github.com/vinceliuice/Tela-circle-icon-theme
 [KDE-Rounded-Corners]: https://github.com/matinlotfali/KDE-Rounded-Corners
 [SilentSDDM]: https://github.com/uiriansan/SilentSDDM
+[paulmcauley/klassy]: https://github.com/paulmcauley/klassy
+[Schneegans/Burn-My-Windows]: https://github.com/Schneegans/Burn-My-Windows
+[catppuccin/yakuake]: https://github.com/catppuccin/yakuake

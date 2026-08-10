@@ -1,0 +1,38 @@
+[Animation]
+Frames=25
+
+[Appearance]
+Blur=true
+HideSkinBorders=true
+Skin=catppuccin-mocha
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Behavior]
+FocusFollowsMouse=true
+
+[Desktop Entry]
+DefaultProfile=HieuBT.profile
+
+[Dialogs]
+FirstRun=false
+
+[KFileDialog Settings]
+iconViewIconSize=43
+
+[Notification Messages]
+ShowPasteHugeTextWarning=false
+
+[Shortcuts]
+new-session-quad=Ctrl+Shift+G
+new-session-two-horizontal=Ctrl+Shift+H
+new-session-two-vertical=Ctrl+Shift+L
+split-left-right=Ctrl+(; Ctrl+Alt+;
+split-top-bottom=Ctrl+); Ctrl+Alt+'
+
+[Window]
+Height=100
+Position=0
+ToggleToFocus=true
+Width=100

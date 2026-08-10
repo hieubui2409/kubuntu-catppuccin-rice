@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "hieubt" }],
+        "Category": "Windows and Tasks",
+        "Description": "Win11-style slim peek-at-desktop chip (Catppuccin)",
+        "Icon": "desktop-symbolic",
+        "Id": "com.hieubt.peek",
+        "License": "MIT",
+        "Name": "Peek Mocha",
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

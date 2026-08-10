@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "hieubt" }],
+        "Category": "System Information",
+        "Description": "Compact fixed-width network speed (Catppuccin)",
+        "Icon": "network-connect",
+        "Id": "com.hieubt.netspeed",
+        "License": "MIT",
+        "Name": "NetSpeed Mocha",
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
