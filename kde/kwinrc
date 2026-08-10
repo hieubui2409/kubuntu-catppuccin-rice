@@ -85,6 +85,7 @@ scaleEnabled=false
 shakecursorEnabled=true
 sheetEnabled=true
 slidingpopupsEnabled=true
+squashEnabled=false
 sticky-window-snappingEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
