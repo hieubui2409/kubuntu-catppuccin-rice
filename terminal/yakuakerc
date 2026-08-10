@@ -32,7 +32,8 @@ split-left-right=Ctrl+(; Ctrl+Alt+;
 split-top-bottom=Ctrl+); Ctrl+Alt+'
 
 [Window]
-Height=85
+Height=100
 Position=0
+Screen=1
 ToggleToFocus=true
 Width=100
