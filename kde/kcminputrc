@@ -3,5 +3,5 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 
 [Mouse]
 X11LibInputXAccelProfileFlat=true
-cursorSize=24
+cursorSize=18
 cursorTheme=catppuccin-mocha-mauve-cursors
