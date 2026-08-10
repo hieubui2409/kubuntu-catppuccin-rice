@@ -27,8 +27,8 @@ FillMode=2
 Image=file:///home/hieubt/Documents/images/catppuccin/galaxy-waves.jpg
 
 [Containments][2]
-ItemGeometries-1969x1108=Applet-748:1180,60,384,384,0;Applet-749:1180,470,384,304,0;
-ItemGeometriesHorizontal=Applet-748:1180,60,384,384,0;Applet-749:1180,470,384,304,0;
+ItemGeometries-1969x1108=Applet-748:1184,64,384,384,0;Applet-749:1184,464,384,336,0;
+ItemGeometriesHorizontal=Applet-748:1184,64,384,384,0;Applet-749:1184,464,384,336,0;
 activityId=56bf9d9e-2b69-4322-8794-9b8bab6799d6
 formfactor=0
 immutability=1
@@ -56,7 +56,9 @@ plugin=org.kde.plasma.weather
 temperatureUnit=6002
 
 [Containments][2][Applets][749][Configuration][WeatherStation]
-source=bbcukmet|weather|Hanoi, Vietnam|1581130
+placeDisplayName=Hanoi, Vietnam
+placeInfo=Hanoi, Vietnam|1581130
+provider=bbcukmet
 
 [Containments][2][Wallpaper][org.kde.image][General]
 FillMode=2
@@ -213,12 +215,12 @@ fontWeight=400
 showDate=true
 showSeconds=2
 
-[Containments][3][Applets][745]
+[Containments][3][Applets][750]
 immutability=1
 plugin=com.hieubt.peek
 
 [Containments][3][General]
-AppletOrder=539;540;541;542;543;558;745
+AppletOrder=539;540;541;542;543;558;750
 
 [Containments][427]
 activityId=
