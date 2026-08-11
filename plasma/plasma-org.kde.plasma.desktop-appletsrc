@@ -230,6 +230,10 @@ plugin=com.hieubt.peek
 immutability=1
 plugin=org.kde.plasma.weather
 
+[Containments][3][Applets][751][Configuration]
+popupHeight=306
+popupWidth=337
+
 [Containments][3][Applets][751][Configuration][Appearance]
 showTemperatureInCompactMode=true
 

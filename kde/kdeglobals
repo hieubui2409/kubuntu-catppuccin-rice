@@ -123,8 +123,7 @@ ForegroundVisited=203, 166, 247
 
 [General]
 BrowserApplication=google-chrome.desktop
-ColorScheme=CatppuccinMochaMauve
-ColorSchemeHash=a39520ad3599fc2707438507eb8793b9efd8a18b
+ColorSchemeHash=5189d572ac818e13a7bb240c2f307730f01ff45b
 Name=KvArcDark
 font=Inter,10,-1,5,50,0,0,0,0,0
 menuFont=Inter,10,-1,5,50,0,0,0,0,0
