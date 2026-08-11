@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "hieubt" }],
+        "Category": "Application Launchers",
+        "Description": "Mauve search button that opens KRunner (Catppuccin)",
+        "Icon": "search-symbolic",
+        "Id": "com.hieubt.krunner",
+        "License": "MIT",
+        "Name": "Search Mocha",
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

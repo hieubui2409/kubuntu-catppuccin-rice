@@ -7,6 +7,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1920x1080=
+ItemGeometries-2048x1152=
 ItemGeometriesHorizontal=
 activityId=56bf9d9e-2b69-4322-8794-9b8bab6799d6
 formfactor=0
@@ -17,9 +18,9 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][General]
-changedPositions={"desktop:/ubuntu-26.04-upgrade-regressions-findings.md":["1920x1080","0","16"]}
-lastResolution=1920x1080
-positions={"1920x1080":["1","17","desktop:/ubuntu-26.04-upgrade-regressions-findings.md","0","16"]}
+changedPositions={"desktop:/ubuntu-26.04-upgrade-regressions-findings.md":["1920x1080,2048x1152","0","16"]}
+lastResolution=2048x1152
+positions={"1920x1080":["1","17","desktop:/ubuntu-26.04-upgrade-regressions-findings.md","0","16"],"2048x1152":["1","18","desktop:/ubuntu-26.04-upgrade-regressions-findings.md","0","16"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -27,7 +28,9 @@ FillMode=2
 Image=file:///home/hieubt/Documents/images/catppuccin/galaxy-waves.jpg
 
 [Containments][2]
+ItemGeometries-1920x1080=Applet-748:1184,64,384,384,0;Applet-749:1184,464,384,336,0;
 ItemGeometries-1969x1108=Applet-748:1184,64,384,384,0;Applet-749:1184,464,384,336,0;
+ItemGeometries-2048x1152=Applet-748:1184,64,384,384,0;Applet-749:1184,464,384,336,0;
 ItemGeometriesHorizontal=Applet-748:1184,64,384,384,0;Applet-749:1184,464,384,336,0;
 activityId=56bf9d9e-2b69-4322-8794-9b8bab6799d6
 formfactor=0
@@ -53,7 +56,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][2][Applets][749][Configuration][Units]
-temperatureUnit=6002
+temperatureUnit=6001
 
 [Containments][2][Applets][749][Configuration][WeatherStation]
 placeDisplayName=Hanoi, Vietnam
@@ -99,7 +102,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][3][Applets][541][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:google-chrome.desktop,applications:firefox_firefox.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kate.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:google-chrome.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kate.desktop,applications:com.anthropic.Claude.desktop
 maxStripes=1
 
 [Containments][3][Applets][542]
@@ -215,12 +218,39 @@ fontWeight=400
 showDate=true
 showSeconds=2
 
+[Containments][3][Applets][558][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][3][Applets][750]
 immutability=1
 plugin=com.hieubt.peek
 
+[Containments][3][Applets][751]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][3][Applets][751][Configuration][Appearance]
+showTemperatureInCompactMode=true
+
+[Containments][3][Applets][751][Configuration][Units]
+temperatureUnit=6001
+
+[Containments][3][Applets][751][Configuration][WeatherStation]
+placeDisplayName=Hanoi, Vietnam
+placeInfo=Hanoi, Vietnam|1581130
+provider=bbcukmet
+
+[Containments][3][Applets][753]
+immutability=1
+plugin=com.hieubt.krunner
+
+[Containments][3][Applets][754]
+immutability=1
+plugin=com.hieubt.pager
+
 [Containments][3][General]
-AppletOrder=539;540;541;542;543;558;750
+AppletOrder=751;754;753;539;540;541;542;543;558;750
 
 [Containments][427]
 activityId=
@@ -415,6 +445,10 @@ plugin=org.kde.plasma.battery
 [Containments][427][Applets][688][Applets][736]
 immutability=1
 plugin=org.kde.plasma.brightness
+
+[Containments][427][Applets][688][Applets][752]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][427][Applets][688][General]
 extraItems=org.kde.plasma.vault,org.kde.kupapplet,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.brightness,org.kde.plasma.mediacontroller
@@ -640,6 +674,10 @@ plugin=org.kde.plasma.brightness
 [Containments][633][Applets][715][Applets][739]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][633][Applets][715][Applets][751]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][633][Applets][715][General]
 extraItems=org.kde.plasma.vault,org.kde.kupapplet,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.brightness,org.kde.plasma.mediacontroller

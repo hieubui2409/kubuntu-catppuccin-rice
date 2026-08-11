@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "hieubt" }],
+        "Category": "Windows and Tasks",
+        "Description": "Compact numbered virtual-desktop switcher, mauve highlight (Catppuccin)",
+        "Icon": "virtual-desktops-symbolic",
+        "Id": "com.hieubt.pager",
+        "License": "MIT",
+        "Name": "Pager Mocha",
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
