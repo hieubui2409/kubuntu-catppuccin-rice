@@ -172,6 +172,7 @@ MaximumRemoteSize=0
 
 [Shortcuts]
 Help=
+RenameFile=
 
 [WM]
 activeBackground=30,30,46

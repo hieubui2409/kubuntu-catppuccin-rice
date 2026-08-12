@@ -18,7 +18,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][General]
-changedPositions={"desktop:/ubuntu-26.04-upgrade-regressions-findings.md":["1920x1080,2048x1152","0","16"]}
+changedPositions={"desktop:/ubuntu-26.04-upgrade-regressions-findings.md":["2048x1152,1920x1080","0","16"]}
 lastResolution=2048x1152
 positions={"1920x1080":["1","17","desktop:/ubuntu-26.04-upgrade-regressions-findings.md","0","16"],"2048x1152":["1","18","desktop:/ubuntu-26.04-upgrade-regressions-findings.md","0","16"]}
 sortMode=-1
@@ -88,8 +88,8 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][3][Applets][540][Configuration]
-popupHeight=504
-popupWidth=635
+popupHeight=802
+popupWidth=960
 
 [Containments][3][Applets][540][Configuration][General]
 customButtonImage=/home/hieubt/.local/share/icons/hicolor/256x256/apps/ubuntu-start-hieubt.png
@@ -102,7 +102,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][3][Applets][541][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:google-chrome.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kate.desktop,applications:com.anthropic.Claude.desktop
+launchers=applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:google-chrome.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kate.desktop,applications:com.anthropic.Claude.desktop
 maxStripes=1
 
 [Containments][3][Applets][542]

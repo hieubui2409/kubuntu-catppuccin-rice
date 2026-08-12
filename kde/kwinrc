@@ -13,6 +13,7 @@ Id_3=4f586486-8b64-4225-86ea-6418c91d6fb8
 Id_4=60205691-9510-495b-90ab-a64d05d9c16f
 Name_1=1
 Name_2=2
+Name_4=4
 Number=4
 Rows=1
 
@@ -67,7 +68,6 @@ contrastEnabled=true
 cubeEnabled=true
 desktopchangeosdEnabled=false
 dimscreenEnabled=true
-fadeEnabled=false
 forceblurEnabled=true
 glideEnabled=false
 krohnkiteEnabled=false
@@ -79,7 +79,7 @@ kwin4_effect_maximizeEnabled=true
 kwin4_effect_scaleEnabled=true
 kwin4_effect_shapecornersEnabled=true
 kwin4_effect_squashEnabled=false
-kwin5_effect_fireEnabled=true
+kwin6_effect_aura_glowEnabled=true
 lattewindowcolorsEnabled=false
 magiclampEnabled=true
 minimizeallEnabled=false
@@ -225,6 +225,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][f84781e8-4079-51c8-a4ba-bfc64048ba0c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Wayland]
+InputMethod=/usr/share/applications/org.freedesktop.IBus.Panel.Wayland.Gtk3.desktop
 
 [Windows]
 Placement=Centered

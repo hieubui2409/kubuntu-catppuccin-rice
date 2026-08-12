@@ -1,6 +1,6 @@
 #!/bin/sh
-# Bật ibus (Bamboo) cho mọi app trên Plasma Wayland — im-config không chạy trên Wayland
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
+# Plasma Wayland: input method do KWin quản lý (kwinrc [Wayland] InputMethod).
+# KHÔNG đặt GTK_IM_MODULE / QT_IM_MODULE — app Wayland dùng giao thức text-input,
+# đặt hai biến này sẽ ép chúng quay về đường IM module kiểu X11 và gây lỗi.
+# XMODIFIERS vẫn cần cho app chạy qua XWayland (ibus-daemon được khởi động với --xim).
 export XMODIFIERS=@im=ibus
-export GLFW_IM_MODULE=ibus
